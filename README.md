@@ -68,6 +68,8 @@
 
 ### **Backend + Frontend & DevOps Engineer | Python • C++ • CI/CD • Networks • SQL • Docker • Git**
 
+---
+
 I'm an engineer with practical experience in infrastructure support, automation, and the design of custom in-house software for the **international NICA Megascience Collider facility at JINR (LHEP)**. I specialize in building fault-tolerant backend architectures, asynchronous data pipelines, network-level tooling, and commercial Telegram ecosystems, and I'm always open to new tasks.
 
 I prioritize reliability and architectural clarity: I write mostly in strongly typed Python and occasionally in C++. PostgreSQL is my primary database, but I can also on other relational DBMSs when needed. I understand the cost of production errors, so I build clean, predictable architectures with clear module boundaries, optimize database workloads, and ship reproducible Docker environments.
