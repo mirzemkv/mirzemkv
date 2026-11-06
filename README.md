@@ -6,7 +6,7 @@
 
 # Привет, я Mirzemkv
 
-### Backend + Frontend & DevOps Engineer | Python • C++ • CI/CD • Networks • SQL • Docker • Git
+### Backend + Frontend & DevOps Engineer | Python • C++ • CI/CD • Networks • SQL • Docker
 
 ---
 
@@ -66,7 +66,7 @@
 
 # Hi, I'm Mirzemkv
 
-### **Backend + Frontend & DevOps Engineer | Python • C++ • CI/CD • Networks • SQL • Docker • Git**
+### Backend + Frontend & DevOps Engineer | Python • C++ • CI/CD • Networks • SQL • Docker
 
 ---
 
