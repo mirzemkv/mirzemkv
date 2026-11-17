@@ -10,7 +10,7 @@
 
 ---
 
-Инженер с практическим опытом поддержки и автоматизации инфраструктуры, а также ручной разработки собственного программного обеспечения на **международном мегасайнс проекте NICA в ОИЯИ (ЛФВЭ)**. Специализируюсь на проектировании отказоустойчивых бэкенд-систем, сетевой автоматизации, асинхронных конвейерах обработки данных и коммерческих Telegram-решениях, всегда готов к новым задачам. 
+Инженер, с практическим опытом поддержки и автоматизации инфраструктуры, а также ручной разработки собственного программного обеспечения на **международном мегасайнс проекте NICA в ОИЯИ (ЛФВЭ)**. Специализируюсь на проектировании отказоустойчивых бэкенд-систем, сетевой автоматизации, асинхронных конвейерах обработки данных и коммерческих Telegram-решениях, всегда готов к новым задачам. 
 
 Делаю упор на надёжность и архитектурную ясность: пишу в основном на Python со строгой типизацией и иногда на C++. Основная СУБД -PostgreSQL, но при необходимости могу и на других реляционных СУБД. Понимаю цену ошибок в продакшене, поэтому выстраиваю чистую и предсказуемую архитектуру с чёткими модульными границами, оптимизирую работу с базами данных и упаковываю сервисы в воспроизводимые Docker-контейнеры.
 
@@ -47,11 +47,21 @@
 
 ---
 
+### Избранные проекты (Любое ПО из ОИЯИ запрещено выклладывать в открытый доступ по NDA) 📂
+
+| Проект | Стек | Особенности реализации |
+| :--- | :--- | :--- |
+| [Commercial Booking Engine](https://github.com/mirzemkv/tg-booking-engine) | Python 3.12, Aiogram 3, PostgreSQL, Redis | Трехуровневая архитектура, транзакционное бронирование слотов без гонок (race condition), миграции Alembic. |
+| [E-Commerce Intelligence ETL](https://github.com/mirzemkv/ecommerce-parser) | Python, HTTPX, Playwright, Pydantic, SQL | Асинхронный пайплайн сбора данных, вычисление дельты цен через оконные функции SQL, запуск в Docker. |
+| [NetPulse Network Monitor](https://github.com/mirzemkv/netpulse-monitor) | Python, Asyncio Sockets, SSL, Telegram API | Неблокирующий опрос пула хостов, семафоры для контроля нагрузки на сеть, автоматические Telegram-алерты. |
+
+---
+
 ### Контакты 🔔
 
 - **Telegram:** [@mirzemkv](https://t.me/mirzemkv)
 - **Email:** [mirzemkv@gmail.com](mailto:mirzemkv@gmail.com)
-- **Сотрудничество:** Разработка ботов, парсинг данных, написание скриптов, настройка инфраструктуры.
+- **Сотрудничество:** Разработка ботов, лендинг, парсинг данных, написание скриптов, настройка инфраструктуры.
 <br>
 
 ---
@@ -107,10 +117,20 @@ I prioritize reliability and architectural clarity: I write mostly in strongly t
 
 ---
 
+### Featured Repositories (Any software from JINR cannot be made publicly available due to an NDA) 📂
+
+| Project | Tech Stack | Architecture Highlights |
+| :--- | :--- | :--- |
+| [Commercial Booking Engine](https://github.com/mirzemkv/tg-booking-engine) | Python 3.12, Aiogram 3, PostgreSQL, Redis | Clean layered design, race-condition-safe slot reservations, automated database migrations. |
+| [E-Commerce Intelligence ETL](https://github.com/mirzemkv/ecommerce-parser) | Python, HTTPX, Playwright, Pydantic, SQL | High-throughput async extraction, SQL window functions for price analytics, Dockerized runner. |
+| [NetPulse Network Monitor](https://github.com/mirzemkv/netpulse-monitor) | Python, Asyncio Sockets, SSL, Telegram API | Non-blocking socket probes, concurrency throttled via asyncio semaphores, real-time alert webhooks. |
+
+---
+
 ### Connect 🔔
 
 - **Telegram:** [@mirzemkv](https://t.me/mirzemkv)
 - **Email:** [mirzemkv@gmail.com](mailto:mirzemkv@gmail.com)
-- **Availability:** Backend development, parsing pipelines, script writing, custom bot solutions, infrastructure automation.
+- **Availability:** Backend development, landing, parsing pipelines, script writing, custom bot solutions, infrastructure automation.
 
 </details>
